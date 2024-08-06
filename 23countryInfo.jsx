@@ -98,6 +98,16 @@ export default function CountryInfo() {
                 <td>Area:</td>
                 <td>{data.area}</td>
               </tr>
+              <tr>
+                //Added native name
+                <td>Native Name:</td>
+                <td>{data.nativeName}</td>
+              </tr>
+              <tr>
+                //Added flags
+                <td>Flag:</td>
+                <td> <img alt="{data.name}" src={data.flags.png} /></td>
+              </tr>
             </tbody>
           </table>
         </article>

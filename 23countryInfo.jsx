@@ -40,6 +40,7 @@ export default function CountryInfo() {
     }
     fetchCountry()
 
+    //Use cleanup function to ignore requests that are made when another country has been selected  
     return () => {
       ignore = true
     }
